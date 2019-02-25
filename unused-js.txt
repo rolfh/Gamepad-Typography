@@ -1,0 +1,71 @@
+window.addEventListener('gamepadconnected', event => {
+	this.connect()
+})
+window.addEventListener('ongamepaddisconnected', event => {
+	this.gamepadIndex = null
+})
+
+console.log('request animationframe')
+this.gamepads = Array.from(navigator.getGamepads()).filter(
+	gp => gp != null && gp.id.includes('STANDARD')
+)[0]
+vm.gamepad = Array.from(navigator.getGamepads())
+	.filter(gp => gp != null)
+	.map(gamepad => gamepad.id.includes('STANDARD'))[0]
+this.loop()
+
+
+
+connect() {
+	this.gamepadIndex = Array.from(navigator.getGamepads()).filter(
+		gp => gp != null && gp.id.includes('STANDARD')
+	)[0].index
+},
+
+// var clicks = gamePad.buttons.map((button, buttonIndex) => {
+// 	if (!this.oldGamepad.buttons) return []
+
+// 	// console.log(this.oldGamepad.buttons[0].value)
+// 	// console.log(this.oldGamepad.buttons[0].value == button.value)
+// 	var update =
+// 		button.value != this.oldGamepad.buttons[buttonIndex].value
+// 	if (update) {
+// 		console.log({
+// 			index: buttonIndex,
+// 			value: button.value
+// 		})
+// 		return { index: buttonIndex, value: button.value }
+// 	}
+// })
+// if (clicks.length) {
+// 	// console.log(clicks)
+// }
+
+
+stylesArray() {
+	return Object.keys(this.styles).map(selector => {
+		return {
+			selector: selector,
+			attributes: Object.keys(this.styles[selector])
+		}
+	})
+},
+
+stylesHtml() {
+	return `<style>${Object.keys(this.styles)
+		.map(
+			selector => `${selector} {
+${Object.keys(this.styles[selector])
+.map(attr => {
+	return `${attr}: ${this.styles[selector][attr].value.toFixed(4)}${
+		this.styles[selector][attr].suffix
+	};`
+})
+.join('\n\t')}
+}`
+		)
+		.join('\n')}
+</style>`
+}
+}
+

@@ -1,0 +1,280 @@
+[
+	{
+		"selector": "themecolor1",
+		"class": "themecolor1",
+		"type": "color",
+		"attributes": [
+			{
+				"name": "hue",
+				"type": "float",
+				"value": 174,
+				"suffix": "",
+				"min": 0,
+				"max": 359
+			},
+			{
+				"name": "saturation",
+				"type": "float",
+				"value": 100,
+				"suffix": "%",
+				"min": 0,
+				"max": 100
+			},
+			{
+				"name": "lightness",
+				"type": "float",
+				"value": 40,
+				"suffix": "%",
+				"min": 0,
+				"max": 100
+			},
+			{
+				"name": "alpha",
+				"type": "float",
+				"value": 1,
+				"suffix": "",
+				"min": 0,
+				"max": 1
+			}
+		]
+	},
+	{
+		"selector": "h1",
+		"attributes": [
+			{
+				"name": "font-size",
+				"type": "float",
+				"value": 30,
+				"suffix": "px"
+			},
+			{
+				"name": "line-height",
+				"type": "float",
+				"value": 1.2,
+				"suffix": "em"
+			},
+			{
+				"name": "letter-spacing",
+				"type": "float",
+				"value": 0,
+				"suffix": "px"
+			},
+			{
+				"name": "margin-top",
+				"type": "float",
+				"value": 0,
+				"suffix": "px"
+			},
+			{
+				"name": "margin-bottom",
+				"type": "float",
+				"value": 28,
+				"suffix": "px"
+			},
+			{
+				"name": "text-transform",
+				"type": "select",
+				"options": [
+					"none",
+					"capitalize",
+					"uppercase",
+					"lowercase",
+					"initial",
+					"inherit"
+				],
+				"value": 0,
+				"suffix": "px"
+			}
+		]
+	},
+	{
+		"selector": "h2",
+		"attributes": [
+			{
+				"name": "font-size",
+				"type": "float",
+				"value": 18,
+				"suffix": "px"
+			},
+			{
+				"name": "line-height",
+				"type": "float",
+				"value": 1.5,
+				"suffix": "em"
+			},
+			{
+				"name": "letter-spacing",
+				"type": "float",
+				"value": 2.6,
+				"suffix": "px"
+			},
+			{
+				"name": "margin-top",
+				"type": "float",
+				"value": 0,
+				"suffix": "px"
+			},
+			{
+				"name": "margin-bottom",
+				"type": "float",
+				"value": 20,
+				"suffix": "px"
+			},
+			{
+				"name": "text-transform",
+				"type": "select",
+				"options": [
+					"none",
+					"capitalize",
+					"uppercase",
+					"lowercase",
+					"initial",
+					"inherit"
+				],
+				"value": 2,
+				"suffix": "px"
+			}
+		]
+	},
+	{
+		"selector": "h3",
+		"attributes": [
+			{
+				"name": "font-size",
+				"type": "float",
+				"value": 22,
+				"suffix": "px"
+			},
+			{
+				"name": "line-height",
+				"type": "float",
+				"value": 1.2,
+				"suffix": "em"
+			},
+			{
+				"name": "letter-spacing",
+				"type": "float",
+				"value": 0,
+				"suffix": "px"
+			},
+			{
+				"name": "margin-top",
+				"type": "float",
+				"value": 0,
+				"suffix": "px"
+			},
+			{
+				"name": "margin-bottom",
+				"type": "float",
+				"value": 10,
+				"suffix": "px"
+			},
+			{
+				"name": "text-transform",
+				"type": "select",
+				"options": [
+					"none",
+					"capitalize",
+					"uppercase",
+					"lowercase",
+					"initial",
+					"inherit"
+				],
+				"value": 0,
+				"suffix": "px"
+			}
+		]
+	},
+	{
+		"selector": "h4",
+		"attributes": [
+			{
+				"name": "font-size",
+				"type": "float",
+				"value": 25,
+				"suffix": "px"
+			},
+			{
+				"name": "line-height",
+				"type": "float",
+				"value": 1.2,
+				"suffix": "em"
+			},
+			{
+				"name": "letter-spacing",
+				"type": "float",
+				"value": 0,
+				"suffix": "px"
+			},
+			{
+				"name": "margin-top",
+				"type": "float",
+				"value": 20,
+				"suffix": "px"
+			},
+			{
+				"name": "margin-bottom",
+				"type": "float",
+				"value": 13,
+				"suffix": "px"
+			},
+			{
+				"name": "text-transform",
+				"type": "select",
+				"options": [
+					"none",
+					"capitalize",
+					"uppercase",
+					"lowercase",
+					"initial",
+					"inherit"
+				],
+				"value": 0,
+				"suffix": "px"
+			}
+		]
+	},
+	{
+		"selector": "p",
+		"attributes": [
+			{
+				"name": "font-size",
+				"type": "float",
+				"value": 19,
+				"suffix": "px"
+			},
+			{
+				"name": "line-height",
+				"type": "float",
+				"value": 1.5,
+				"suffix": "em"
+			},
+			{
+				"name": "margin-top",
+				"type": "float",
+				"value": 0,
+				"suffix": "px"
+			},
+			{
+				"name": "margin-bottom",
+				"type": "float",
+				"value": 15,
+				"suffix": "px"
+			},
+			{
+				"name": "text-transform",
+				"type": "select",
+				"options": [
+					"none",
+					"capitalize",
+					"uppercase",
+					"lowercase",
+					"initial",
+					"inherit"
+				],
+				"value": 0,
+				"suffix": "px"
+			}
+		]
+	}
+]

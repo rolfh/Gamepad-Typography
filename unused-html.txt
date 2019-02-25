@@ -1,0 +1,13 @@
+<li v-for="(selector, selectorKey, selectorIndex) in styles">
+	<strong :class="{current: selectorIndex == currentSelector}">
+		{{ selectorKey }}:</strong
+	>
+	<ul>
+		<li
+			v-for="(attribute, attributeKey, attributeIndex) in selector"
+			:class="{current: selectorIndex == currentSelector && attributeIndex == currentAttribute}"
+		>
+			{{ attribute.value + attribute.suffix }}
+		</li>
+	</ul>
+</li>
